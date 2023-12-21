@@ -1,4 +1,5 @@
 // LoginForm.tsx
+import { Container } from 'postcss';
 import React, { useState } from 'react';
 
 const LoginForm: React.FC = () => {
@@ -11,8 +12,8 @@ const LoginForm: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-8 rounded shadow-md w-full max-w-md">
+    <div className="Container={max-auto}" >
+      <div className="bg-white p-8 rounded shadow-md md  max-width: 768">
         <h2 className="text-2xl font-semibold mb-4">Login</h2>
         <form>
           <div className="mb-4">
