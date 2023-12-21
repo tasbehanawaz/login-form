@@ -6,7 +6,6 @@ module.exports = {
   ],
   theme: {
     container: {
-      center: true,
       // Add other container configurations if needed
     },
     // Add other theme configurations if needed
