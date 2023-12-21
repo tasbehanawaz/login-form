@@ -1,18 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-export const content = [
-  './src/**/*.{js,ts,jsx,tsx}',
-  './src/**/*.{LoginForm.tsx}',
-  // Add other paths as needed
-];
-export const theme = {
+module.exports = {
+  content: [
+    './src/**/*.{js,ts,jsx,tsx}',
+    // Add other paths as needed
+  ],
   theme: {
     container: {
       center: true,
-    }
-  }
-  // Customize your theme configuration
+      // Add other container configurations if needed
+    },
+    // Add other theme configurations if needed
+  },
+  variants: {},
+  plugins: [],
 };
-export const variants = {};
-export const plugins = [];
-
-
