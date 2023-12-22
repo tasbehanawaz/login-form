@@ -2,14 +2,18 @@
 module.exports = {
   content: [
     './src/**/*.{js,ts,jsx,tsx}',
-    // Add other paths as needed
+    // You can add more paths here if you have HTML or other JS/TS files elsewhere
   ],
   theme: {
-    container: {
-      // Add other container configurations if needed
+    extend: {
+      // Here you can extend the existing Tailwind theme, e.g., custom colors, spacing
     },
-    // Add other theme configurations if needed
+    // Add or modify the existing Tailwind theme as needed
   },
-  variants: {},
-  plugins: [],
+  variants: {
+    // Define variants if needed
+  },
+  plugins: [
+    // Add any plugins here if you are using them
+  ],
 };
