@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      padding: {
+        '20px': '20px',
+      }
       // Here you can extend the existing Tailwind theme, e.g., custom colors, spacing
     },
     // Add or modify the existing Tailwind theme as needed
